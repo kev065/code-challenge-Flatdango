@@ -1,10 +1,10 @@
 # code-challenge-Flatdango
 Flatdango - A website that enables a user to purchase tickets from Flatiron Movie Theater.
 
-Open the following link on your browser to view the app: https://kev065.github.io/code-challenge-Flatdango/
+Run the following command to start the JSON SERVER: json-server --watch db.json and then click on the index.html file to launch the web app.
 
 **A user has the capability to:**
-- Browse through a catalogue of currently showing films.
+- Browse through a catalogue of the films currently showing.
 - Select a specific film from the catalogue and:
   - View the film's poster.
   - Check the duration of the film.
