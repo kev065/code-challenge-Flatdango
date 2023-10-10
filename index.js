@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const allMovies = document.querySelector("#all-movies ul");
+const allMovies = document.querySelector("#all-movies ul");
 
 function fetchMovies() {
     fetch(" http://localhost:3000/films")
@@ -13,7 +12,10 @@ fetchMovies();
 
 function displayAllMovies(movies) {
     movies.forEach((movie, index) => {
+        // Create Dynamic Nodes
         const list = document.createElement("li");
+
+        // Assign Nodes
         list.textContent = movie.title;
         list.id = movie.id;
         list.addEventListener("click", seeMovieDetails);
@@ -37,6 +39,7 @@ function fetchMoviesbyId(id) {
         });
 }
 function renderMovieDetails(movie) {
+    // Dynamic nodes
 
     const movieTitle = document.querySelector("#Movie-Title");
     const movieImage = document.querySelector("#movie-image");
@@ -59,6 +62,7 @@ function renderMovieDetails(movie) {
     movieBuyTicket.textContent = (movie.capacity === movie.tickets_sold) ? 'SOLD OUT' : 'BUY TICKET'
 
     movieBuyTicket.addEventListener("click", () => {
+        // buy a ticket
 
         if (movie.tickets_sold < movie.capacity) {
             movie.tickets_sold = movie.tickets_sold + 1;
@@ -88,3 +92,4 @@ function renderMovieDetails(movie) {
 
     })
 }
+
