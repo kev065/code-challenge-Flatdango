@@ -1,4 +1,5 @@
-const allMovies = document.querySelector("#all-movies ul");
+document.addEventListener('DOMContentLoaded', (event) => {
+    const allMovies = document.querySelector("#all-movies ul");
 
 function fetchMovies() {
     fetch(" http://localhost:3000/films")

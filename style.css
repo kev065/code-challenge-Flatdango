@@ -1,1 +1,117 @@
-
+body {
+    display: flex;
+    background-color: rgb(173, 72, 72);
+    color: azure;
+    padding: 50px;
+    gap: 150px;
+    padding-top: 100px;
+  }
+  header {
+    display: flex;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: azure;
+    height: 70px;
+    color: rgb(173, 72, 72);
+    left: 0;
+  }
+  
+  header nav {
+    font-weight: 300;
+    font-size: 60px;
+  }
+  
+  #all-movies {
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  #all-movies h2 {
+    text-decoration: underline;
+  }
+  
+  #all-movies li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  #movie-display {
+    height: 400px;
+    width: 500px;
+  }
+  #movie-display img {
+    border-radius: 10px;
+  }
+  
+  #movie-display h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  #movie-description {
+    font-size: 18px;
+    font-style: italic;
+  }
+  
+  #movie-display img {
+    height: 100%;
+    width: 100%;
+  }
+  #Movie-Title {
+    text-decoration: underline;
+  }
+  
+  #movie-details {
+    width: 350px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  
+  #movie-details h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  #movie-showtime {
+    margin-bottom: 10px;
+  }
+  
+  #BuyTicket-btn {
+    background-color: #fff;
+    color: rgb(173, 72, 72);
+    padding: 15px;
+    height: 50px;
+    border-radius: 15px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  #RemoveTicket-btn {
+    background-color: #fff;
+    color: rgb(173, 72, 72);
+    padding: 15px;
+    height: 50px;
+    border-radius: 15px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+  }
+  #movie-runtime {
+    font-weight: 600;
+  }
+  
+  #movie-showtime {
+    font-weight: 600;
+  }
