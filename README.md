@@ -1,7 +1,7 @@
 # code-challenge-Flatdango
 Flatdango - A website that enables a user to purchase tickets from Flatiron Movie Theater.
 
-Run the following command to start the JSON SERVER: json-server --watch db.json and then click on the index.html file to launch the web app.
+Run the following command to start the JSON SERVER: ```json-server --watch db.json``` and then click on the **index.html** file to launch the web app.
 
 **A user has the capability to:**
 - Browse through a catalogue of the films currently showing.
