@@ -1,6 +1,6 @@
 body {
   display: flex;
-  background-color: rgb(173, 72, 72);
+  background-color: rgb(79, 72, 173);
   color: azure;
   padding: 50px;
   gap: 150px;
@@ -13,10 +13,13 @@ header {
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: azure;
+  background-color: rgb(27, 32, 32);
   height: 70px;
-  color: rgb(173, 72, 72);
+  color: rgb(106, 72, 173);
   left: 0;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
 }
 
 header nav {
